@@ -1,0 +1,930 @@
+[
+  {
+    "id": 1,
+    "title": "Носки классические",
+    "price": 250,
+    "category": "Одежда",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Socks.jpg",
+    "description": "Мягкие хлопковые носки для повседневной носки. Отлично дышат и сохраняют форму."
+  },
+  {
+    "id": 2,
+    "title": "Ноутбук Pro 15",
+    "price": 85000,
+    "category": "Электроника",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Laptop.jpg",
+    "description": "Мощный ноутбук для работы и творчества с ярким экраном и высокой производительностью."
+  },
+  {
+    "id": 3,
+    "title": "Шторы интерьерные",
+    "price": 3200,
+    "category": "Дом",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Curtain.jpg",
+    "description": "Плотные шторы блэкаут, которые надежно защищают от солнечного света и уличного шума."
+  },
+  {
+    "id": 4,
+    "title": "Смартфон X",
+    "price": 45000,
+    "category": "Электроника",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Smart-phone.jpg",
+    "description": "Современный смартфон с отличной камерой, большим экраном и емким аккумулятором."
+  },
+  {
+    "id": 5,
+    "title": "Кроссовки беговые",
+    "price": 6500,
+    "category": "Обувь",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sneakers.jpg",
+    "description": "Легкие и удобные кроссовки с амортизирующей подошвой. Идеальны для спорта и прогулок."
+  },
+  {
+    "id": 6,
+    "title": "Настольная лампа",
+    "price": 1200,
+    "category": "Дом",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Electric_table_lamp.jpg",
+    "description": "Стильная лампа с регулируемым углом наклона. Создает уютное рабочее освещение."
+  },
+  {
+    "id": 7,
+    "title": "Наручные часы",
+    "price": 12500,
+    "category": "Аксессуары",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Wristwatch.jpg",
+    "description": "Классические механические часы с кожаным ремешком. Элегантное дополнение к любому образу."
+  },
+  {
+    "id": 8,
+    "title": "Беспроводные наушники",
+    "price": 8900,
+    "category": "Электроника",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Headphones.jpg",
+    "description": "Полноразмерные наушники с шумоподавлением и глубоким басом. Работают до 20 часов без подзарядки."
+  },
+  {
+    "id": 9,
+    "title": "Городской рюкзак",
+    "price": 3800,
+    "category": "Аксессуары",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Backpack.jpg",
+    "description": "Вместительный и прочный рюкзак с отделением для ноутбука. Идеален для учебы и путешествий."
+  },
+  {
+    "id": 10,
+    "title": "Керамическая кружка",
+    "price": 450,
+    "category": "Дом",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Coffee_mug.jpg",
+    "description": "Уютная большая кружка для чая или кофе. Сохраняет тепло напитка и удобно лежит в руке."
+  },
+  {
+    "id": 11,
+    "title": "Базовая футболка",
+    "price": 900,
+    "category": "Одежда",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/T-shirt.jpg",
+    "description": "Однотонная футболка из 100% хлопка. Универсальная вещь, которая сочетается с чем угодно."
+  },
+{
+    "id": 12,
+    "title": "Тостер автоматический",
+    "price": 2800,
+    "category": "Кухня",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Toaster.jpg",
+    "description": "Компактный тостер с функцией разморозки. Готовит идеальные хрустящие тосты каждое утро."
+  },
+  {
+    "id": 13,
+    "title": "Компьютерная мышь",
+    "price": 1500,
+    "category": "Электроника",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Computer_mouse.jpg",
+    "description": "Эргономичная беспроводная мышь. Рука не устает даже после долгой работы за компьютером."
+  },
+  {
+    "id": 14,
+    "title": "Коврик для йоги",
+    "price": 1900,
+    "category": "Спорт",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Yoga_mat.jpg",
+    "description": "Нескользящий коврик оптимальной толщины. Обеспечивает комфорт и устойчивость во время тренировок."
+  },
+  {
+    "id": 15,
+    "title": "Солнцезащитные очки",
+    "price": 3500,
+    "category": "Аксессуары",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sunglasses.jpg",
+    "description": "Стильные очки с защитой от ультрафиолета. Незаменимый аксессуар для солнечных дней и вождения."
+  },
+  {
+    "id": 16,
+    "title": "Комнатное растение",
+    "price": 850,
+    "category": "Дом",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Houseplant.jpg",
+    "description": "Неприхотливое зеленое растение в горшке. Оживляет интерьер и очищает воздух в помещении."
+  },
+  {
+    "id": 17,
+    "title": "Умные часы Series 5",
+    "price": 15000,
+    "category": "Электроника",
+    "image": "https://loremflickr.com/640/480/smartwatch?lock=17",
+    "description": "Стильные умные часы с функцией отслеживания пульса, шагомером и уведомлениями со смартфона."
+  },
+  {
+    "id": 18,
+    "title": "Беспроводные наушники",
+    "price": 8000,
+    "category": "Аудио",
+    "image": "https://loremflickr.com/640/480/headphones?lock=18",
+    "description": "Полноразмерные наушники с шумоподавлением и качественным басом для погружения в музыку."
+  },
+  {
+    "id": 19,
+    "title": "Набор носков (5 пар)",
+    "price": 600,
+    "category": "Одежда",
+    "image": "https://loremflickr.com/640/480/socks?lock=19",
+    "description": "Удобные хлопковые носки разных цветов. Дышащий материал, подходят для спорта и повседневной носки."
+  },
+  {
+    "id": 20,
+    "title": "Шторы Блэкаут",
+    "price": 3200,
+    "category": "Дом",
+    "image": "https://loremflickr.com/640/480/curtains?lock=20",
+    "description": "Плотные шторы, полностью блокирующие солнечный свет. Идеальны для спальни или домашнего кинотеатра."
+  },
+  {
+    "id": 21,
+    "title": "Смартфон Galaxy X",
+    "price": 45000,
+    "category": "Электроника",
+    "image": "https://loremflickr.com/640/480/smartphone?lock=21",
+    "description": "Современный смартфон с безрамочным экраном, двойной камерой и быстрым процессором."
+  },
+  {
+    "id": 22,
+    "title": "Кроссовки для бега",
+    "price": 5500,
+    "category": "Обувь",
+    "image": "https://loremflickr.com/640/480/sneakers?lock=22",
+    "description": "Легкие и амортизирующие кроссовки. Обеспечивают комфорт при длительных пробежках."
+  },
+  {
+    "id": 23,
+    "title": "Керамическая кружка",
+    "price": 350,
+    "category": "Посуда",
+    "image": "https://loremflickr.com/640/480/mug?lock=23",
+    "description": "Классическая белая кружка объемом 300 мл. Подходит для горячего кофе и чая."
+  },
+  {
+    "id": 24,
+    "title": "Офисное кресло",
+    "price": 12000,
+    "category": "Мебель",
+    "image": "https://loremflickr.com/640/480/office,chair?lock=24",
+    "description": "Эргономичное кресло с поддержкой поясницы и регулировкой высоты для комфортной работы."
+  },
+  {
+    "id": 25,
+    "title": "Настольная лампа",
+    "price": 2500,
+    "category": "Освещение",
+    "image": "https://loremflickr.com/640/480/lamp?lock=25",
+    "description": "Стильная лампа с регулируемым углом наклона. Мягкий свет, безопасный для глаз."
+  },
+  {
+    "id": 26,
+    "title": "Городской рюкзак",
+    "price": 3800,
+    "category": "Аксессуары",
+    "image": "https://loremflickr.com/640/480/backpack?lock=26",
+    "description": "Вместительный рюкзак с отделением для ноутбука 15 дюймов. Водоотталкивающая ткань."
+  },
+  {
+    "id": 27,
+    "title": "Футболка Базовая",
+    "price": 900,
+    "category": "Одежда",
+    "image": "https://loremflickr.com/640/480/tshirt?lock=27",
+    "description": "Однотонная футболка из 100% хлопка. Прямой крой, не выцветает после стирки."
+  },
+  {
+    "id": 28,
+    "title": "Электрический чайник",
+    "price": 2100,
+    "category": "Бытовая техника",
+    "image": "https://loremflickr.com/640/480/kettle?lock=28",
+    "description": "Чайник из нержавеющей стали с функцией автоотключения и защитой от перегрева."
+  },
+  {
+    "id": 29,
+    "title": "Игровая мышь",
+    "price": 3500,
+    "category": "Электроника",
+    "image": "https://loremflickr.com/640/480/computer,mouse?lock=29",
+    "description": "Проводная мышь с высокой чувствительностью сенсора и RGB подсветкой."
+  },
+  {
+    "id": 30,
+    "title": "Коврик для йоги",
+    "price": 1500,
+    "category": "Спорт",
+    "image": "https://loremflickr.com/640/480/yoga?lock=30",
+    "description": "Нескользящий коврик для фитнеса и йоги. Легко сворачивается и моется."
+  },
+  {
+    "id": 31,
+    "title": "Солнцезащитные очки",
+    "price": 4200,
+    "category": "Аксессуары",
+    "image": "https://loremflickr.com/640/480/sunglasses?lock=31",
+    "description": "Модные очки с поляризацией и защитой от ультрафиолета UV400."
+  },
+  {
+    "id": 32,
+    "title": "Зимняя куртка",
+    "price": 14500,
+    "category": "Одежда",
+    "image": "https://loremflickr.com/640/480/jacket?lock=32",
+    "description": "Теплая куртка с капюшоном и синтепоновым наполнителем. Защищает от ветра и снега."
+  },
+  {
+    "id": 33,
+    "title": "Механическая клавиатура",
+    "price": 7500,
+    "category": "Электроника",
+    "image": "https://loremflickr.com/640/480/keyboard?lock=33",
+    "description": "Клавиатура с тактильными переключателями и надежным корпусом для набора текста и игр."
+  },
+  {
+    "id": 34,
+    "title": "Горшок для цветов",
+    "price": 750,
+    "category": "Дом",
+    "image": "https://loremflickr.com/640/480/plant?lock=34",
+    "description": "Керамический горшок с поддоном. Подходит для комнатных растений среднего размера."
+  },
+  {
+    "id": 35,
+    "title": "Кофеварка",
+    "price": 18000,
+    "category": "Бытовая техника",
+    "image": "https://loremflickr.com/640/480/coffee,machine?lock=35",
+    "description": "Автоматическая кофеварка для приготовления эспрессо и капучино. Встроенный капучинатор."
+  },
+  {
+    "id": 36,
+    "title": "Диван двухместный",
+    "price": 32000,
+    "category": "Мебель",
+    "image": "https://loremflickr.com/640/480/sofa?lock=36",
+    "description": "Компактный диван с тканевой обивкой. Отлично впишется в небольшую гостиную."
+  },
+  {
+    "id": 37,
+    "title": "Блендер стационарный",
+    "price": 3500,
+    "category": "Бытовая техника",
+    "image": "https://loremflickr.com/640/480/blender?lock=37",
+    "description": "Мощный блендер для смузи и коктейлей со стеклянной чашей."
+  },
+  {
+    "id": 38,
+    "title": "Джинсы мужские",
+    "price": 2800,
+    "category": "Одежда",
+    "image": "https://loremflickr.com/640/480/jeans?lock=38",
+    "description": "Классические синие джинсы прямого кроя из плотного денима."
+  },
+  {
+    "id": 39,
+    "title": "Планшет 10 дюймов",
+    "price": 18000,
+    "category": "Электроника",
+    "image": "https://loremflickr.com/640/480/tablet?lock=39",
+    "description": "Легкий планшет для просмотра фильмов и серфинга в интернете."
+  },
+  {
+    "id": 40,
+    "title": "Сковорода с антипригарным покрытием",
+    "price": 1900,
+    "category": "Посуда",
+    "image": "https://loremflickr.com/640/480/pan?lock=40",
+    "description": "Глубокая сковорода 26 см, подходит для всех типов плит."
+  },
+  {
+    "id": 41,
+    "title": "Внешний аккумулятор (Powerbank)",
+    "price": 2200,
+    "category": "Электроника",
+    "image": "https://loremflickr.com/640/480/powerbank?lock=41",
+    "description": "Емкость 20000 мАч, быстрая зарядка для двух устройств."
+  },
+  {
+    "id": 42,
+    "title": "Подушка ортопедическая",
+    "price": 2500,
+    "category": "Дом",
+    "image": "https://loremflickr.com/640/480/pillow?lock=42",
+    "description": "Подушка с эффектом памяти для здорового сна и поддержки шеи."
+  },
+  {
+    "id": 43,
+    "title": "Фен для волос",
+    "price": 3100,
+    "category": "Красота",
+    "image": "https://loremflickr.com/640/480/hairdryer?lock=43",
+    "description": "Профессиональный фен с ионизацией и тремя режимами температуры."
+  },
+  {
+    "id": 44,
+    "title": "Велосипед горный",
+    "price": 25000,
+    "category": "Спорт",
+    "image": "https://loremflickr.com/640/480/bicycle?lock=44",
+    "description": "Надежный велосипед с алюминиевой рамой и дисковыми тормозами."
+  },
+  {
+    "id": 45,
+    "title": "Конструктор LEGO",
+    "price": 4500,
+    "category": "Детские товары",
+    "image": "https://loremflickr.com/640/480/lego?lock=45",
+    "description": "Большой набор для сборки космического корабля. 500 деталей."
+  },
+  {
+    "id": 46,
+    "title": "Микроволновая печь",
+    "price": 6000,
+    "category": "Бытовая техника",
+    "image": "https://loremflickr.com/640/480/microwave?lock=46",
+    "description": "Компактная микроволновка с функцией разморозки и таймером."
+  },
+  {
+    "id": 47,
+    "title": "Худи с капюшоном",
+    "price": 2300,
+    "category": "Одежда",
+    "image": "https://loremflickr.com/640/480/hoodie?lock=47",
+    "description": "Теплая толстовка оверсайз из мягкого футера с начесом."
+  },
+  {
+    "id": 48,
+    "title": "Монитор 24 дюйма",
+    "price": 11000,
+    "category": "Электроника",
+    "image": "https://loremflickr.com/640/480/monitor?lock=48",
+    "description": "Full HD монитор с IPS матрицей и тонкими рамками."
+  },
+  {
+    "id": 49,
+    "title": "Гантели разборные (2 шт)",
+    "price": 4000,
+    "category": "Спорт",
+    "image": "https://loremflickr.com/640/480/dumbbells?lock=49",
+    "description": "Набор гантелей по 10 кг с возможностью регулировки веса."
+  },
+  {
+    "id": 50,
+    "title": "Набор ножей",
+    "price": 3200,
+    "category": "Посуда",
+    "image": "https://loremflickr.com/640/480/knives?lock=50",
+    "description": "5 кухонных ножей из стали на деревянной подставке."
+  },
+  {
+    "id": 51,
+    "title": "Гитара акустическая",
+    "price": 8500,
+    "category": "Хобби",
+    "image": "https://loremflickr.com/640/480/guitar?lock=51",
+    "description": "Шестиструнная гитара с ярким звучанием, подходит для новичков."
+  },
+  {
+    "id": 52,
+    "title": "Зонт автомат",
+    "price": 1200,
+    "category": "Аксессуары",
+    "image": "https://loremflickr.com/640/480/umbrella?lock=52",
+    "description": "Прочный зонт с системой антиветер и удобной ручкой."
+  },
+  {
+    "id": 53,
+    "title": "Колонки Bluetooth",
+    "price": 4500,
+    "category": "Аудио",
+    "image": "https://loremflickr.com/640/480/speaker?lock=53",
+    "description": "Портативная колонка с защитой от воды и мощным басом."
+  },
+  {
+    "id": 54,
+    "title": "Ковер в гостиную",
+    "price": 5500,
+    "category": "Дом",
+    "image": "https://loremflickr.com/640/480/carpet?lock=54",
+    "description": "Мягкий ковер с коротким ворсом, размер 150x200 см."
+  },
+  {
+    "id": 55,
+    "title": "Дрель-шуруповерт",
+    "price": 4800,
+    "category": "Инструменты",
+    "image": "https://loremflickr.com/640/480/drill?lock=55",
+    "description": "Аккумуляторная дрель с набором бит и сверл в кейсе."
+  },
+  {
+    "id": 56,
+    "title": "Крем для лица",
+    "price": 950,
+    "category": "Красота",
+    "image": "https://loremflickr.com/640/480/cream?lock=56",
+    "description": "Увлажняющий крем с гиалуроновой кислотой для всех типов кожи."
+  },
+  {
+    "id": 57,
+    "title": "Фотоаппарат мгновенной печати",
+    "price": 7500,
+    "category": "Электроника",
+    "image": "https://loremflickr.com/640/480/camera?lock=57",
+    "description": "Камера, которая сразу печатает снимки. Идеально для вечеринок."
+  },
+  {
+    "id": 58,
+    "title": "Книга 'Гарри Поттер'",
+    "price": 800,
+    "category": "Книги",
+    "image": "https://loremflickr.com/640/480/book?lock=58",
+    "description": "Коллекционное издание первой части саги в твердом переплете."
+  },
+  {
+    "id": 59,
+    "title": "Пылесос робот",
+    "price": 14000,
+    "category": "Бытовая техника",
+    "image": "https://loremflickr.com/640/480/robot,vacuum?lock=59",
+    "description": "Умный пылесос с функцией влажной уборки и управлением со смартфона."
+  },
+  {
+    "id": 60,
+    "title": "Скейтборд",
+    "price": 3000,
+    "category": "Спорт",
+    "image": "https://loremflickr.com/640/480/skateboard?lock=60",
+    "description": "Классический деревянный скейтборд с качественной подвеской."
+  },
+  {
+    "id": 61,
+    "title": "Наручные часы классические",
+    "price": 6500,
+    "category": "Аксессуары",
+    "image": "https://loremflickr.com/640/480/watch?lock=61",
+    "description": "Кварцевые часы с кожаным ремешком и минеральным стеклом."
+  },
+  {
+    "id": 62,
+    "title": "Тостер",
+    "price": 1800,
+    "category": "Бытовая техника",
+    "image": "https://loremflickr.com/640/480/toaster?lock=62",
+    "description": "Тостер на два ломтика с регулировкой степени прожарки."
+  },
+  {
+    "id": 63,
+    "title": "Палатка туристическая",
+    "price": 5200,
+    "category": "Спорт",
+    "image": "https://loremflickr.com/640/480/tent?lock=63",
+    "description": "Двухместная палатка, водонепроницаемая и легкая в сборке."
+  },
+  {
+    "id": 64,
+    "title": "Платье летнее",
+    "price": 2100,
+    "category": "Одежда",
+    "image": "https://loremflickr.com/640/480/dress?lock=64",
+    "description": "Легкое платье с цветочным принтом из вискозы."
+  },
+  {
+    "id": 65,
+    "title": "Видеорегистратор",
+    "price": 3500,
+    "category": "Автотовары",
+    "image": "https://loremflickr.com/640/480/dashcam?lock=65",
+    "description": "Компактный регистратор с записью в Full HD и ночным режимом."
+  },
+  {
+    "id": 66,
+    "title": "Кошелек кожаный",
+    "price": 1500,
+    "category": "Аксессуары",
+    "image": "https://loremflickr.com/640/480/wallet?lock=66",
+    "description": "Мужской кошелек из натуральной кожи с отделением для мелочи."
+  },
+  {
+    "id": 67,
+    "title": "Настольная игра 'Монополия'",
+    "price": 2200,
+    "category": "Хобби",
+    "image": "https://loremflickr.com/640/480/boardgame?lock=67",
+    "description": "Классическая экономическая стратегия для всей семьи."
+  },
+  {
+    "id": 68,
+    "title": "Утюг паровой",
+    "price": 2800,
+    "category": "Бытовая техника",
+    "image": "https://loremflickr.com/640/480/iron?lock=68",
+    "description": "Утюг с керамической подошвой и мощным паровым ударом."
+  },
+  {
+    "id": 69,
+    "title": "Полотенце банное",
+    "price": 800,
+    "category": "Дом",
+    "image": "https://loremflickr.com/640/480/towel?lock=69",
+    "description": "Большое махровое полотенце, 100% хлопок, отлично впитывает влагу."
+  },
+  {
+    "id": 70,
+    "title": "Жесткий диск 1ТБ",
+    "price": 4200,
+    "category": "Электроника",
+    "image": "https://loremflickr.com/640/480/harddrive?lock=70",
+    "description": "Внешний HDD для хранения фото, видео и резервных копий."
+  },
+  {
+    "id": 71,
+    "title": "Электрическая зубная щетка",
+    "price": 2600,
+    "category": "Красота",
+    "image": "https://loremflickr.com/640/480/toothbrush?lock=71",
+    "description": "Звуковая щетка с таймером и сменными насадками."
+  },
+  {
+    "id": 72,
+    "title": "Спортивная сумка",
+    "price": 1900,
+    "category": "Аксессуары",
+    "image": "https://loremflickr.com/640/480/gymbag?lock=72",
+    "description": "Вместительная сумка для тренировок с отделением для обуви."
+  },
+  {
+    "id": 73,
+    "title": "Краски акварельные",
+    "price": 450,
+    "category": "Хобби",
+    "image": "https://loremflickr.com/640/480/paints?lock=73",
+    "description": "Набор профессиональной акварели, 24 цвета."
+  },
+  {
+    "id": 74,
+    "title": "Плед флисовый",
+    "price": 1100,
+    "category": "Дом",
+    "image": "https://loremflickr.com/640/480/blanket?lock=74",
+    "description": "Уютный и теплый плед в клетку, размер 200x220 см."
+  },
+  {
+    "id": 75,
+    "title": "Футбольный мяч",
+    "price": 1300,
+    "category": "Спорт",
+    "image": "https://loremflickr.com/640/480/soccerball?lock=75",
+    "description": "Мяч 5-го размера для игры на траве и искусственном покрытии."
+  },
+  {
+    "id": 76,
+    "title": "Микрофон студийный",
+    "price": 5500,
+    "category": "Электроника",
+    "image": "https://loremflickr.com/640/480/microphone?lock=76",
+    "description": "USB микрофон для стримов и записи подкастов с чистым звуком."
+  },
+  {
+    "id": 77,
+    "title": "Рубашка в клетку",
+    "price": 1700,
+    "category": "Одежда",
+    "image": "https://loremflickr.com/640/480/shirt?lock=77",
+    "description": "Мужская фланелевая рубашка, мягкая и комфортная."
+  },
+  {
+    "id": 78,
+    "title": "Набор инструментов",
+    "price": 6000,
+    "category": "Инструменты",
+    "image": "https://loremflickr.com/640/480/tools?lock=78",
+    "description": "Универсальный набор в чемодане: ключи, отвертки, молоток."
+  },
+  {
+    "id": 79,
+    "title": "Весы напольные",
+    "price": 1000,
+    "category": "Бытовая техника",
+    "image": "https://loremflickr.com/640/480/scale?lock=79",
+    "description": "Электронные весы из закаленного стекла, точность до 100 г."
+  },
+  {
+    "id": 80,
+    "title": "Рюкзак туристический",
+    "price": 4800,
+    "category": "Спорт",
+    "image": "https://loremflickr.com/640/480/hiking,backpack?lock=80",
+    "description": "Рюкзак 60 литров с анатомической спинкой и множеством карманов."
+  },
+  {
+    "id": 81,
+    "title": "Парфюм мужской",
+    "price": 3800,
+    "category": "Красота",
+    "image": "https://loremflickr.com/640/480/perfume?lock=81",
+    "description": "Свежий аромат с нотами цитруса и древесины. 50 мл."
+  },
+  {
+    "id": 82,
+    "title": "Игровая приставка",
+    "price": 29000,
+    "category": "Электроника",
+    "image": "https://loremflickr.com/640/480/console?lock=82",
+    "description": "Современная консоль для видеоигр с поддержкой 4K."
+  },
+  {
+    "id": 83,
+    "title": "Стул кухонный",
+    "price": 3000,
+    "category": "Мебель",
+    "image": "https://loremflickr.com/640/480/chair?lock=83",
+    "description": "Стильный стул с мягким сиденьем и деревянными ножками."
+  },
+  {
+    "id": 84,
+    "title": "Шарф шерстяной",
+    "price": 900,
+    "category": "Одежда",
+    "image": "https://loremflickr.com/640/480/scarf?lock=84",
+    "description": "Теплый вязаный шарф, защищает от холода и ветра."
+  },
+  {
+    "id": 85,
+    "title": "Фонарик тактический",
+    "price": 1200,
+    "category": "Спорт",
+    "image": "https://loremflickr.com/640/480/flashlight?lock=85",
+    "description": "Яркий светодиодный фонарь с регулировкой фокуса и режимом SOS."
+  },
+  {
+    "id": 86,
+    "title": "Бритва электрическая",
+    "price": 3400,
+    "category": "Красота",
+    "image": "https://loremflickr.com/640/480/shaver?lock=86",
+    "description": "Роторная бритва для сухого и влажного бритья."
+  },
+  {
+    "id": 87,
+    "title": "Ваза стеклянная",
+    "price": 600,
+    "category": "Дом",
+    "image": "https://loremflickr.com/640/480/vase?lock=87",
+    "description": "Прозрачная ваза для цветов, высота 25 см."
+  },
+  {
+    "id": 88,
+    "title": "Коврик для мыши",
+    "price": 400,
+    "category": "Электроника",
+    "image": "https://loremflickr.com/640/480/mousepad?lock=88",
+    "description": "Большой тканевый коврик с нескользящим основанием."
+  },
+  {
+    "id": 89,
+    "title": "Кроссовки городские",
+    "price": 4800,
+    "category": "Обувь",
+    "image": "https://loremflickr.com/640/480/shoes?lock=89",
+    "description": "Стильные кроссовки для повседневной носки, кожаные вставки."
+  },
+  {
+    "id": 90,
+    "title": "Термос",
+    "price": 1100,
+    "category": "Посуда",
+    "image": "https://loremflickr.com/640/480/thermos?lock=90",
+    "description": "Термос из нержавеющей стали 1 литр, держит тепло 12 часов."
+  },
+  {
+    "id": 91,
+    "title": "Ремень кожаный",
+    "price": 850,
+    "category": "Аксессуары",
+    "image": "https://loremflickr.com/640/480/belt?lock=91",
+    "description": "Классический ремень с металлической пряжкой."
+  },
+  {
+    "id": 92,
+    "title": "Мольберт",
+    "price": 2100,
+    "category": "Хобби",
+    "image": "https://loremflickr.com/640/480/easel?lock=92",
+    "description": "Деревянный настольный мольберт для рисования."
+  },
+  {
+    "id": 93,
+    "title": "Web-камера",
+    "price": 2700,
+    "category": "Электроника",
+    "image": "https://loremflickr.com/640/480/webcam?lock=93",
+    "description": "Камера HD 1080p с встроенным микрофоном для видеозвонков."
+  },
+  {
+    "id": 94,
+    "title": "Халат махровый",
+    "price": 2900,
+    "category": "Одежда",
+    "image": "https://loremflickr.com/640/480/bathrobe?lock=94",
+    "description": "Белый банный халат, мягкий и уютный."
+  },
+  {
+    "id": 95,
+    "title": "Спальный мешок",
+    "price": 3600,
+    "category": "Спорт",
+    "image": "https://loremflickr.com/640/480/sleepingbag?lock=95",
+    "description": "Теплый спальник-кокон для походов, температура комфорта +5."
+  },
+  {
+    "id": 96,
+    "title": "Органайзер для косметики",
+    "price": 700,
+    "category": "Красота",
+    "image": "https://loremflickr.com/640/480/makeup?lock=96",
+    "description": "Акриловый органайзер с ящичками для хранения косметики."
+  },
+  {
+    "id": 97,
+    "title": "Настенные часы",
+    "price": 1200,
+    "category": "Дом",
+    "image": "https://loremflickr.com/640/480/wallclock?lock=97",
+    "description": "Круглые часы в стиле лофт, бесшумный механизм."
+  },
+  {
+    "id": 98,
+    "title": "Роутер Wi-Fi",
+    "price": 2400,
+    "category": "Электроника",
+    "image": "https://loremflickr.com/640/480/router?lock=98",
+    "description": "Двухдиапазонный гигабитный роутер для скоростного интернета."
+  },
+  {
+    "id": 99,
+    "title": "Бокалы для вина (6 шт)",
+    "price": 1800,
+    "category": "Посуда",
+    "image": "https://loremflickr.com/640/480/wineglass?lock=99",
+    "description": "Набор изящных стеклянных бокалов для красного вина."
+  },
+  {
+    "id": 100,
+    "title": "Перчатки зимние",
+    "price": 600,
+    "category": "Одежда",
+    "image": "https://loremflickr.com/640/480/gloves?lock=100",
+    "description": "Вязаные перчатки с сенсорными пальцами для смартфона."
+  },
+  {
+    "id": 101,
+    "title": "Карта памяти 64Гб",
+    "price": 900,
+    "category": "Электроника",
+    "image": "https://loremflickr.com/640/480/sdcard?lock=101",
+    "description": "Скоростная microSD карта для телефонов и камер."
+  },
+  {
+    "id": 102,
+    "title": "Швабра с отжимом",
+    "price": 1300,
+    "category": "Дом",
+    "image": "https://loremflickr.com/640/480/mop?lock=102",
+    "description": "Удобная швабра с ведром и системой автоматического отжима."
+  },
+  {
+    "id": 103,
+    "title": "Укулеле",
+    "price": 2500,
+    "category": "Хобби",
+    "image": "https://loremflickr.com/640/480/ukulele?lock=103",
+    "description": "Гавайская гитара сопрано яркого цвета, чехол в комплекте."
+  },
+  {
+    "id": 104,
+    "title": "Автомобильный пылесос",
+    "price": 1600,
+    "category": "Автотовары",
+    "image": "https://loremflickr.com/640/480/car,vacuum?lock=104",
+    "description": "Портативный пылесос, работает от прикуривателя."
+  },
+  {
+    "id": 105,
+    "title": "Кофемолка",
+    "price": 1500,
+    "category": "Бытовая техника",
+    "image": "https://loremflickr.com/640/480/coffeegrinder?lock=105",
+    "description": "Электрическая кофемолка с ножами из нержавеющей стали."
+  },
+  {
+    "id": 106,
+    "title": "Очки для плавания",
+    "price": 800,
+    "category": "Спорт",
+    "image": "https://loremflickr.com/640/480/goggles?lock=106",
+    "description": "Очки с защитой от запотевания и регулируемым ремешком."
+  },
+  {
+    "id": 107,
+    "title": "Блокнот Молескин",
+    "price": 1400,
+    "category": "Канцелярия",
+    "image": "https://loremflickr.com/640/480/notebook?lock=107",
+    "description": "Качественный блокнот в твердой обложке для записей."
+  },
+  {
+    "id": 108,
+    "title": "Зеркало настольное",
+    "price": 900,
+    "category": "Красота",
+    "image": "https://loremflickr.com/640/480/mirror?lock=108",
+    "description": "Двустороннее зеркало с увеличением и подсветкой."
+  },
+  {
+    "id": 109,
+    "title": "Мясорубка электрическая",
+    "price": 4500,
+    "category": "Бытовая техника",
+    "image": "https://loremflickr.com/640/480/meatgrinder?lock=109",
+    "description": "Мощная мясорубка с функцией реверса и насадкой для колбас."
+  },
+  {
+    "id": 110,
+    "title": "Ракетка для тенниса",
+    "price": 3200,
+    "category": "Спорт",
+    "image": "https://loremflickr.com/640/480/racket?lock=110",
+    "description": "Легкая ракетка для большого тенниса, подходит любителям."
+  },
+  {
+    "id": 111,
+    "title": "Флешка 32Гб",
+    "price": 500,
+    "category": "Электроника",
+    "image": "https://loremflickr.com/640/480/flashdrive?lock=111",
+    "description": "Компактный USB накопитель в металлическом корпусе."
+  },
+  {
+    "id": 112,
+    "title": "Свечи ароматические",
+    "price": 400,
+    "category": "Дом",
+    "image": "https://loremflickr.com/640/480/candles?lock=112",
+    "description": "Набор свечей с запахом ванили и лаванды."
+  },
+  {
+    "id": 113,
+    "title": "Кепка бейсболка",
+    "price": 700,
+    "category": "Одежда",
+    "image": "https://loremflickr.com/640/480/cap?lock=113",
+    "description": "Хлопковая кепка с регулируемой застежкой."
+  },
+  {
+    "id": 114,
+    "title": "Удлинитель 5 метров",
+    "price": 600,
+    "category": "Электроника",
+    "image": "https://loremflickr.com/640/480/extensioncord?lock=114",
+    "description": "Сетевой фильтр на 5 розеток с кнопкой выключения."
+  },
+  {
+    "id": 115,
+    "title": "Когтеточка для кота",
+    "price": 1200,
+    "category": "Зоотовары",
+    "image": "https://loremflickr.com/640/480/cat,scratcher?lock=115",
+    "description": "Столбик-когтеточка с джутовой обмоткой и игрушкой."
+  },
+  {
+    "id": 116,
+    "title": "Поводок для собак",
+    "price": 800,
+    "category": "Зоотовары",
+    "image": "https://loremflickr.com/640/480/leash?lock=116",
+    "description": "Прочный нейлоновый поводок-рулетка длиной 5 метров."
+  }
+]
