@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './Header.css'
-import { Palette, Search } from 'lucide-react';
+import { Palette, Plus, Search } from 'lucide-react';
 import useLocalStorage from '../../hooks/useLocalStorage';
 
 
@@ -31,7 +31,8 @@ const Header = () => {
                 }>
                     <Palette />
                 </button>
-                <button>Разместить объявление</button>
+                <button className='add-sale'>Разместить объявление</button>
+                <button className='add-sale-icon'><Plus /></button>
             </div>
         </header>
   )

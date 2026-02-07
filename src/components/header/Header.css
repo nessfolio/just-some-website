@@ -14,5 +14,22 @@ header {
     }
     .buttons {
         display: flex;
+        .add-sale-icon {
+            display: none;
+        }
+    }
+    button {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header .buttons .add-sale {
+        display: none;
+    }
+    
+    header .buttons .add-sale-icon {
+        display: block;
     }
 }
